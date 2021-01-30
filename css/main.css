@@ -56,5 +56,7 @@
 	color: #333;
 }
 
-#bg:hover { fill:red! important;}
-#bg:hover { cursor: pointer;}
+/* interact svgs go here */
+#icons:hover {cursor: pointer;}
+#knife:hover { fill:#D4AF37! important;}
+#chop_board:hover { fill:#C19A6B;}
