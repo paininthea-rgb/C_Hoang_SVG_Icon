@@ -1,32 +1,46 @@
-.hidden {
+.hidden
+{
   display: none;
 }
 
-.container {
-  width: 900px;
+.container
+{
+  width: 1200px;
   margin: 0 auto;
 }
 
-.wrapper {
+.flex-container
+{
+  width: 1200px;
+  height: 300px;
   display: flex;
   flex-direction: row;
-  background-color: #fff;
-  height: auto;
+  padding-right: 50px;
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
+
+.button
+{
+	box-shadow: 0 1px 2px rgba(0,0,0,.5);
+	padding: 10px;
+	text-decoration: none;
+	border-radius: 5px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.5);
 }
 
 #mainNav
 {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: 'Hachi Maru Pop', cursive;
 	height: 60px;
-	background: rgb(15,135,226);
-	background: linear-gradient(0deg, rgba(15,135,226,1) 0%, rgba(99,171,226,1) 100%);
 }
 
 #mainNav ul
 {
 	display: flex;
 	flex-direction: row;
-	justify-content: flex-start;
+	justify-content: space-evenly;
+
 }
 
 #mainNav ul li
@@ -37,11 +51,12 @@
 
 #mainNav ul li a
 {
-  color: #fff;
+  color: #000;
 	text-decoration: none;
 	text-transform: uppercase;
 	padding: 10px;
 	transition: all .5s ease-in-out;
+  text-align: center;
 }
 
 #mainNav ul li a:active
@@ -56,7 +71,66 @@
 	color: #333;
 }
 
+#header
+{
+  width: 1200px;
+  padding-top: 50px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+#footer
+{
+  width: 1200px;
+  padding-top: 200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2
+{
+  font-family: 'Montserrat', sans-serif;
+  border-bottom: solid;
+  border-width: 5px;
+  border-color: red;
+}
+
 /* interact svgs go here */
-#icons:hover {cursor: pointer;}
-#knife:hover { fill:#D4AF37! important;}
-#chop_board:hover { fill:#C19A6B;}
+
+svg:hover {transform:scale(1.1);}
+svg:hover {cursor:pointer;}
+
+/* best.svg */
+#chop_board:hover { fill:#C19A6B; }
+
+/* cook.svg */
+#chopboard:hover { fill:#C19A6B; }
+
+/* eat.svg */
+#knife:hover { fill:#D4AF37;}
+#eatbg:hover {fill: #51A8CE;}
+
+/* roller.svg */
+#rollerbg:hover {fill:green;}
+
+/* tea.svg */
+#bg_teatime:hover {fill:green;}
+
+/* fast.svg */
+#knifeff-2:hover {fill: green;}
+#forkff-2:hover {fill: green;}
+#ff:hover {fill: red;}
+
+/* hot.svg */
+#Firebg:hover {fill:red;}
+#hot-3:hover {fill:yellow;}
+
+/* lunch.svg */
+#lunchbg:hover {fill:yellow;}
+
+/* menu.svg */
+#ladle:hover {fill:#C19A6B;}
+
+/* pan.svg */
+#pan-2:hover {fill:#D4AF37;}
