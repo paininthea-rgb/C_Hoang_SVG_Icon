@@ -9,6 +9,5 @@
     console.log('clicked the button (or icon)!');
   }
 
-  theButton.addEventListener('click',logClick);
   theIcons.forEach(icon => icon.addEventListener('click',logClick))
 })();
